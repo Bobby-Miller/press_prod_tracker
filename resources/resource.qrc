@@ -1,0 +1,69 @@
+<RCC>
+  <qresource prefix="png_icon">
+    <file>3d_graph.png</file>
+    <file>accept.png</file>
+    <file>application.png</file>
+    <file>attach.png</file>
+    <file>Back.png</file>
+    <file>cancel.png</file>
+    <file>Chart_xy.png</file>
+    <file>cog.png</file>
+    <file>compress.png</file>
+    <file>door_in.png</file>
+    <file>email_go.png</file>
+    <file>film.png</file>
+    <file>folder_add.png</file>
+    <file>font.png</file>
+    <file>Inverted color.png</file>
+    <file>music.png</file>
+    <file>page.png</file>
+    <file>page_add.png</file>
+    <file>page_delete.png</file>
+    <file>page_white_excel.png</file>
+    <file>page_white_powerpoint.png</file>
+    <file>page_white_word.png</file>
+    <file>pencil.png</file>
+    <file>picture.png</file>
+    <file>server.png</file>
+    <file>server_add.png</file>
+    <file>server_delete.png</file>
+    <file>server_edit.png</file>
+    <file>user.png</file>
+    <file>user_add.png</file>
+    <file>user_delete.png</file>
+    <file>user_edit.png</file>
+  </qresource>
+  <qresource prefix="ico_icon">
+    <file>30_free_office_icons_icons_pack_120719/add1.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/add2.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/addressbook.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/alarm.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/alert.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/application.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/back.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/calculator.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/calendar.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/cancel.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/cart.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/chart.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/chat.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/close.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/computer.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/configure.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/contact.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/copy.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/cut.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/delete.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/disc.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/documents.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/down.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/edit.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/event.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/export.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/forward.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/import.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/info.ico</file>
+    <file>30_free_office_icons_icons_pack_120719/up.ico</file>
+    <file>fypy logo wo Title-mod.ico</file>
+  </qresource>
+</RCC>

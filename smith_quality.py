@@ -9,7 +9,9 @@ import smith_data as sd
 import signal_reader as sr
 from matplotlib.pyplot import style
 import math
+import os
 
+os.startfile('C:/smiths_micrologix_data/connector.py')
 style.use('bmh')
 
 Ui_main, Qmain = loadUiType('ui/main.ui')
@@ -262,6 +264,7 @@ class Main(Qmain, Ui_main):
         self.update_layout(self.prod_summary_chart(), self.mplvlProdSum)
 
         self.prodDisp.setText(str(self.data.press_sum_prod()))
+        self.cycleTimeDisp.setText(str(round(self.cycle_time, 1)))
 
     def top_three_plot(self, station):
         """

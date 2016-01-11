@@ -4,8 +4,7 @@ import datetime
 
 class SignalReader:
     def __init__(self):
-        self.conn = sqlite3.connect('C:/Users/millebo/PycharmProjects/'
-                                    'smiths_micrologix_data/signal.sqlite',
+        self.conn = sqlite3.connect('C:/smiths_micrologix_data/signal.sqlite',
                                     detect_types=sqlite3.PARSE_DECLTYPES)
 
         self.last_on_signal = self.read_signal(1)
@@ -54,4 +53,7 @@ class SignalReader:
             return self.current_cycle
         else:
             return self.current_cycle
+
+signal = SignalReader()
+new_signal = SignalReader()
 

@@ -359,7 +359,7 @@ Negative</string>
               </property>
               <property name="text">
                <string>(4) Tip - 
-Cupping</string>
+Smashed</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -799,7 +799,7 @@ Negative</string>
               </property>
               <property name="text">
                <string>(4) Tip - 
-Cupping</string>
+Smashed</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -1235,7 +1235,7 @@ Negative</string>
               </property>
               <property name="text">
                <string>(4) Tip - 
-Cupping</string>
+Smashed</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -1671,7 +1671,7 @@ Negative</string>
               </property>
               <property name="text">
                <string>(4) Tip - 
-Cupping</string>
+Smashed</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -2107,7 +2107,7 @@ Negative</string>
               </property>
               <property name="text">
                <string>(4) Tip - 
-Cupping</string>
+Smashed</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -2546,7 +2546,7 @@ Negative</string>
               </property>
               <property name="text">
                <string>(4) Tip - 
-Cupping</string>
+Smashed</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -2964,7 +2964,7 @@ Dropped</string>
      <x>0</x>
      <y>0</y>
      <width>1759</width>
-     <height>31</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

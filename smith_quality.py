@@ -9,9 +9,8 @@ import smith_data as sd
 import signal_reader as sr
 from matplotlib.pyplot import style
 import math
-import os
+from subprocess import Popen
 
-os.startfile('C:/smiths_micrologix_data/connector.py')
 style.use('bmh')
 
 Ui_main, Qmain = loadUiType('ui/main.ui')
@@ -244,6 +243,7 @@ class Main(Qmain, Ui_main):
         and the production value.
         :return: No return.
         """
+        Popen('connect.bat', shell=False)
         self.update_layout(self.top_three_plot(1), self.mplvlTopThree_1)
         self.update_layout(self.top_three_plot(2), self.mplvlTopThree_2)
         self.update_layout(self.top_three_plot(3), self.mplvlTopThree_3)
@@ -265,6 +265,7 @@ class Main(Qmain, Ui_main):
 
         self.prodDisp.setText(str(self.data.press_sum_prod()))
         self.cycleTimeDisp.setText(str(round(self.cycle_time, 1)))
+
 
     def top_three_plot(self, station):
         """

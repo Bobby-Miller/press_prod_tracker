@@ -32,8 +32,8 @@ class Main(Qmain, Ui_main):
 
         self.cycle_time = self.signal.update_cycle()
 
-        super(Main, self).__init__() # Inherit parent methods...I think?
-        self.setupUi(self) # I don't know what this is.
+        super(Main, self).__init__()  # Inherit parent methods...I think?
+        self.setupUi(self)  # I don't know what this is.
 
         self.widget_dicts()  # initialize widget_dicts method (a static method
         # used to organize buttons outside of the init method - a cleaner
@@ -61,7 +61,7 @@ class Main(Qmain, Ui_main):
         # current shift and update data accordingly
 
         self.timer = QtCore.QTimer()  # PyQt timer action signal.
-        self.timer.start(1000)  # Trigger a signal every second.
+        self.timer.start(500)  # Trigger a signal every second.
         self.timer.timeout.connect(self.cycle_check)  # perform action
         # trigger.
 

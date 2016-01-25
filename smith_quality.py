@@ -12,6 +12,7 @@ import math
 from subprocess import Popen
 
 style.use('bmh')
+Popen('connect.bat', shell=False)
 
 Ui_main, Qmain = loadUiType('ui/main.ui')
 
@@ -243,7 +244,7 @@ class Main(Qmain, Ui_main):
         and the production value.
         :return: No return.
         """
-        Popen('connect.bat', shell=False)
+        
         self.update_layout(self.top_three_plot(1), self.mplvlTopThree_1)
         self.update_layout(self.top_three_plot(2), self.mplvlTopThree_2)
         self.update_layout(self.top_three_plot(3), self.mplvlTopThree_3)

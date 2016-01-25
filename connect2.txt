@@ -1,0 +1,3 @@
+@echo off
+cd smiths_micrologix_data
+C:/python27/python2 connector.py
